@@ -1,4 +1,4 @@
-@extends('layouts.layouts')
+@extends('layouts.app')
 
 @section('content')
 <a href="{{route('books.create')}}" class="btn btn-success">+登録</a>
